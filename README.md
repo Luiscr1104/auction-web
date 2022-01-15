@@ -18,3 +18,12 @@ You can use Spring Boot to create stand-alone Java applications that can be star
 
 https://github.com/spring-projects/spring-boot#installation-and-getting-started
 ***
+
+### Maven: 
+Is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. Maven addresses two aspects of building software: how software is built, and its dependencies.
+
+#### Spring Boot Starter Test:
+Starter for testing Spring Boot applications with libraries including JUnit Jupiter, Hamcrest and Mockito
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
+
+***
