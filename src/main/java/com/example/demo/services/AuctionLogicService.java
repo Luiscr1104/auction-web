@@ -62,8 +62,11 @@ public class AuctionLogicService {
 	}
 
 	/**
+	 * Este metodo utiliza un ciclo para recorrer la lista de productos y acceder a
+	 * la data usando filter. Luego con un map y un compare tenemos máximo de
+	 * apuesta requerido para obtener el ganador
 	 * 
-	 * @return
+	 * @return retornando una lista de ganadores
 	 */
 	public List<Bid> runWinnerProcess() {
 		List<Bid> bidders = new ArrayList<Bid>();
@@ -82,10 +85,12 @@ public class AuctionLogicService {
 	}
 
 	/**
+	 * Este metodo usa un ciclo para recorer la
 	 * 
-	 * @param maxBid
-	 * @param resultSubList
-	 * @return
+	 * @param maxBid        que sacamos del runWinnerProcess
+	 * @param resultSubList esta sublista es para recorerla con for each y tener la
+	 *                      apuesta ganadora
+	 * @return retornamos la apuesta ganadora bid
 	 */
 	private Bid getWinner(Integer maxBid, List<Bid> resultSubList) {
 		int price;
@@ -105,6 +110,8 @@ public class AuctionLogicService {
 	}
 
 	/**
+	 * Este metodo me ayuda a imprimir los ganadores concatenando el producto y
+	 * precio
 	 * 
 	 * @param winners
 	 */
