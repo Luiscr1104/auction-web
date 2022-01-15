@@ -27,3 +27,8 @@ Starter for testing Spring Boot applications with libraries including JUnit Jupi
 https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
 
 ***
+
+Una vez instalado el Spring Tools 4, importamos el proyecto y se recomienda hacer build con maven, luego install maven y previamente iniciar el servicio con Spring boot App.
+
+### Para ejecutar el servicio vamos a nuestra ruta mapeada:
+http://localhost:8080/auctionApi/runWinnerProcess
