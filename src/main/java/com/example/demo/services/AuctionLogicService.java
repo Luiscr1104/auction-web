@@ -85,7 +85,8 @@ public class AuctionLogicService {
 	}
 
 	/**
-	 * Este metodo usa un ciclo para recorer la
+	 * Este metodo usa un ciclo para recorer las apuestas y extraer una apuesta
+	 * ganadora despues de ciertas condiciones.
 	 * 
 	 * @param maxBid        que sacamos del runWinnerProcess
 	 * @param resultSubList esta sublista es para recorerla con for each y tener la
